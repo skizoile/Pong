@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1440970893366380}
+  m_IsPrefabParent: 1
+--- !u!1 &1440970893366380
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4216733914190586}
+  - component: {fileID: 114546814159618368}
+  m_Layer: 0
+  m_Name: VersusHardManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4216733914190586
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1440970893366380}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114546814159618368
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1440970893366380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6037b09f6d57ce04796fb7ed6a4172f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  paddlePlayerPrefab: {fileID: 114786358852093746, guid: 3e48a5a497fb005428a9030abebdc0e7,
+    type: 2}
+  ballPrefab: {fileID: 114684498624143330, guid: 9746569486b9de24da7e320dc4cc9fa4,
+    type: 2}
+  victoryScreen: {fileID: 114108470286879546, guid: 4734b9bb4441756418b9731e72045dac,
+    type: 2}
+  hud: {fileID: 114217502974238746, guid: ea2e5b533cb60764f9745210c1c087dd, type: 2}
+  maxScore: 10
+  paddleJ2Prefab: {fileID: 114786358852093746, guid: 3e48a5a497fb005428a9030abebdc0e7,
+    type: 2}
+  multiplyDifficulty: 1.5
+  levelDesigns:
+  - {fileID: 1830287433896566, guid: 54bddda15f40b1b448999728b0aaec31, type: 2}
+  - {fileID: 1927455269122404, guid: 604e9aa02d421724eb38a72e4b501b66, type: 2}
